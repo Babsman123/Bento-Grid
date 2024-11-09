@@ -100,7 +100,7 @@ html {
   padding: 3rem 2rem 1rem 2rem;
   animation: moveInLeft 3s ease-in-out; }
   .item--4 h3 {
-    padding-right: 5rem; }
+    padding-right: 1rem; }
     @media only screen and (max-width: 62.5em) {
       .item--4 h3 {
         padding-right: 0.5rem; } }
@@ -136,7 +136,7 @@ html {
   animation: moveInRight 1.5s ease-in-out; }
   @media only screen and (max-width: 37.5em) {
     .item--6 {
-      padding-right: 10rem; } }
+      padding-right: 1rem; } }
   .item--6 img {
     width: 100%;
     margin-top: 2rem;
@@ -191,9 +191,11 @@ html {
 
 .heading--3 {
   color: #121212;
-  font-size: 3rem; }
+  font-size: 3rem;
+  font-family: "DM Sans", sans-serif; }
   .heading--3 span {
-    color: #7650dc; }
+    color: #7650dc;
+    font-style: italic; }
   .heading--3__light {
     color: white;
     margin-left: 0.5rem; }
@@ -202,13 +204,16 @@ html {
       font-size: 2.5rem; } }
   @media only screen and (max-width: 37.5em) {
     .heading--3 {
-      font-size: 4.5rem; } }
+      font-size: 4rem; } }
 
 .heading--2 {
   color: white;
-  font-size: 4rem; }
+  font-size: 4rem;
+  font-family: "DM Sans", sans-serif; }
   .heading--2 .times {
     color: #ffcb6b; }
+  .heading--2 .italic {
+    font-style: italic; }
   .heading--2__dark {
     color: #121212;
     font-size: 5rem;
@@ -218,7 +223,8 @@ html {
       font-size: 6rem; } }
 
 .para {
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  font-family: "DM Sans", sans-serif; }
   @media only screen and (max-width: 37.5em) {
     .para {
       font-size: 3rem;

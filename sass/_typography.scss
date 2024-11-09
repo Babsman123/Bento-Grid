@@ -10,9 +10,11 @@
   @extend %heading;
   color: $color-black;
   font-size: 3rem;
+  font-family: "DM Sans", sans-serif;
 
   span {
     color: $bg-purple-dark;
+    font-style: italic;
   }
   &__light {
     color: $bg-white;
@@ -24,7 +26,7 @@
   }
 
   @media only screen and (max-width: $bp-small) {
-    font-size: 4.5rem;
+    font-size: 4rem;
   }
 }
 
@@ -32,9 +34,14 @@
   @extend %heading;
   color: $bg-white;
   font-size: 4rem;
+  font-family: "DM Sans", sans-serif;
 
   .times {
     color: $bg-yellow-dark;
+  }
+
+  .italic {
+    font-style: italic;
   }
 
   &__dark {
@@ -50,6 +57,7 @@
 
 .para {
   font-size: 1.5rem;
+  font-family: "DM Sans", sans-serif;
 
   @media only screen and (max-width: $bp-small) {
     // font-weight: 800;
