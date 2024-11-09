@@ -1,0 +1,81 @@
+%heading {
+  font-weight: 600;
+
+  @media only screen and (max-width: $bp-small) {
+    font-weight: bolder;
+  }
+}
+
+.heading--3 {
+  @extend %heading;
+  color: $color-black;
+  font-size: 3rem;
+
+  span {
+    color: $bg-purple-dark;
+  }
+  &__light {
+    color: $bg-white;
+    margin-left: 0.5rem;
+  }
+
+  @media only screen and (max-width: $bp-large) {
+    font-size: 2.5rem;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    font-size: 4.5rem;
+  }
+}
+
+.heading--2 {
+  @extend %heading;
+  color: $bg-white;
+  font-size: 4rem;
+
+  .times {
+    color: $bg-yellow-dark;
+  }
+
+  &__dark {
+    color: $color-black;
+    font-size: 5rem;
+    margin-bottom: 1rem;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    font-size: 6rem;
+  }
+}
+
+.para {
+  font-size: 1.5rem;
+
+  @media only screen and (max-width: $bp-small) {
+    // font-weight: 800;
+    font-size: 3rem;
+    word-spacing: 0.5rem;
+  }
+
+  &-white {
+    color: $bg-white;
+
+    @media only screen and (max-width: $bp-small) {
+      font-weight: 800;
+    }
+  }
+
+  &-pad {
+    padding-right: 5rem;
+
+    @media only screen and (max-width: $bp-small) {
+      padding: 0;
+    }
+  }
+
+  &__dark {
+    @media only screen and (max-width: $bp-small) {
+      font-weight: 700;
+    }
+  }
+}

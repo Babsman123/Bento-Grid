@@ -1,0 +1,27 @@
+$bg-purple-light: hsl(254, 88%, 90%);
+$bg-purple-dark: hsl(256, 67%, 59%);
+$bg-yellow-light: hsl(31, 66%, 93%);
+$bg-yellow-dark: hsl(39, 100%, 71%);
+$bg-white: hsl(0, 0%, 100%);
+$color-black: hsl(0, 0%, 7%);
+
+//MEDIA QUERY SIZE
+$bp-large: 62.5em; // 1000px/16px (1000px)
+$bp-medium: 50em; //800px/16px (800px)
+$bp-small: 37.5em; //600px/16px (600px)
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; // 1px == 10px
+
+  @media only screen and (max-width: $bp-large) {
+    font-size: 50%; // 8px/16px 1rem =
+  }
+}
